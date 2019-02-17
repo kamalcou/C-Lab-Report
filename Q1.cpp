@@ -4,12 +4,17 @@ the top 5 students name in their honor board. As a student of CSE, write OOP cod
 
 #include<bits/stdc++.h>
 using namespace std;
+class Person{
+    public:
+    string name;
+    int age;
 
-class Student
+};
+class Student: public Person
 {
     private:
-        string Name;
-        int Age;
+        //string Name;
+        //int Age;
         float GPA;
         int ACM_Solve;
 
